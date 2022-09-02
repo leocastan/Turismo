@@ -1,0 +1,79 @@
+.encabezado{
+    background: url("../imagenes/header-2.jpg");
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 200px;
+    bottom: -10px !important;
+    display: grid !important;
+    align-content: center!important;
+    background-position: center;
+}
+
+.encabezado-letra{
+    font-size: 50px;
+    color: rgb(60, 60, 60);
+}
+
+
+.targetas{
+    display: flex !important;
+    width: 100%;
+    justify-content: center!important;
+    border: solid 1px rgb(195, 195, 195);
+    border-radius: 5px;
+    padding: 30px 10px;
+    margin-top: 30px;
+    margin-bottom: 50px;
+}
+
+.contenedor-targetas{
+    width: 30%;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+.img-reserva1{
+    background-image: url("../imagenes/reserva1.png");
+    width: 100% !important;
+    height: 200px;
+}
+
+.img-reserva2{
+    background-image: url("../imagenes/reserva2.jpg");
+    width: 100% !important;
+    height: 200px;
+}
+
+.img-reserva3{
+    background-image: url("../imagenes/reserva3.jpg");
+    width: 100% !important;
+    height: 200px;
+}
+
+.contenedor-targetas>div>h3{
+    color: rgb(99, 118, 255);
+}
+
+.contenedor-targetas>div{
+    padding-top: 30px;
+}
+
+.contenedor-targetas>div>p{
+    text-align: justify;
+    color: rgb(60, 60, 60);
+}
+
+.borde-tabla{
+    border: solid 1px rgb(195, 195, 195);
+    margin-top: 100px;
+    margin-bottom: 50px;
+}
+
+.containerx{
+    margin-top: 100px;
+}
+
+.text-color{
+    text-shadow: 1px 1px 1px black;
+}
+
